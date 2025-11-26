@@ -21,3 +21,8 @@ router.get('/', (req, res) => {
     messages: messages,
   });
 });
+
+// New message form
+router.get('/new', (req, res) => {
+  res.render('form', { title: 'New Message' });
+});
