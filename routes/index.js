@@ -40,3 +40,11 @@ router.post('/new', (req, res) => {
 
   res.redirect('/');
 });
+
+// Message details page
+router.get('/message/:id', (req, res) => {
+  const message = messages[req.params.id];
+  if (!message) return res.send('Message not found.');
+
+  res.render('message', { title: 'Message Details', message });
+});
