@@ -48,3 +48,5 @@ router.get('/message/:id', (req, res) => {
 
   res.render('message', { title: 'Message Details', message });
 });
+
+module.exports = router;
