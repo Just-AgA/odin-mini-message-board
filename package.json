@@ -1,0 +1,24 @@
+{
+  "name": "odin-mini-message-board",
+  "version": "1.0.0",
+  "description": "This is one of the projects in The Odin Project curriculum,where i will be building a mini message board with some features.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Just-AgA/odin-mini-message-board.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Just-AgA/odin-mini-message-board/issues"
+  },
+  "homepage": "https://github.com/Just-AgA/odin-mini-message-board#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
