@@ -7,3 +7,6 @@ const indexRouter = require('./routes/index');
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+
+// parse form data
+app.use(express.urlencoded({ extended: true }));
