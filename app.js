@@ -10,3 +10,6 @@ app.set('view engine', 'ejs');
 
 // parse form data
 app.use(express.urlencoded({ extended: true }));
+
+// use routes
+app.use('/', indexRouter);
